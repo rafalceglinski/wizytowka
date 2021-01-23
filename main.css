@@ -19,7 +19,8 @@ body {
 
 img {
     border-radius: 80px;
-    padding: 15px;
+    width: 148px;
+    height: 148px;
 }
 
 .main {
@@ -27,4 +28,48 @@ img {
     border-radius: 16px;
     width: 624px;
     height: 322px;
+    padding: 32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.header {
+    padding-left: 32px;
+}
+
+.header__h1 {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+.header__position {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.article {
+    padding-left: 32px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.article__link {
+    color: #E20613;
+}
+
+.article__text {
+    color: #ED6D05;
+    font-weight: normal;
 }
