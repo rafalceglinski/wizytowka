@@ -67,6 +67,7 @@ img {
 
 .article__link {
     color: #E20613;
+    text-decoration-line: none;
 }
 
 .article__text {
